@@ -14,7 +14,7 @@ public class CheckPermutation {
         map1.put(str1.charAt(i), 1);
       }
     }
-    
+
     for (int j = 0; j < str2.length(); j++) {
       if (map2.containsKey(str2.charAt(j))) {
         map2.put(str2.charAt(j), map2.get(str2.charAt(j)) + 1);
